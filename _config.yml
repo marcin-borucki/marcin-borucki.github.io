@@ -1,3 +1,5 @@
+#name: Frosty Bytes
+#description: Welcome to Frosty Bytes！
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -5,18 +7,19 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "mint" #"default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "Frosty Bytes"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Marcin Borucki"
+description              : "Frosty Bytes slightly data & tech blog by Marcin Borucki."
+url                      : "https://marcin-borucki.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+repository               : marcin-borucki/marcin-borucki.github.io 
+# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+teaser                   : /assets/images/500x300.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -51,17 +54,17 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
+search                   : true # true, false (default)
 
 # SEO Related
-google_site_verification :
+google_site_verification : UA-111347692-1
 bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : marcin_bros
 facebook:
   username               :
   app_id                 :
@@ -83,10 +86,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Marcin Borucki"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "A data sciencentis in industrial setting. Pushing him self to bloging to made himself even more awesome."
+  location         : "Praga North, Warsaw, Poland"
   email            :
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
@@ -96,19 +99,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "marcin-borucki"
   gitlab           :
   google_plus      :
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "marcin-borucki" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          :
+  twitter          : "marcin_bros"
   vine             :
   weibo            :
   xing             :
@@ -192,6 +195,8 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+  - jekyll-remote-theme
+ # - jekyll-data
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -200,7 +205,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
+ # - jekyll-data
 
 # Archives
 #  Type
