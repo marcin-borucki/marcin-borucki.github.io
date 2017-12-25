@@ -12,7 +12,7 @@ It's time to find new inspiration and growth for me. To write a blog seems to be
 I will blog on [Data Science](https://en.wikipedia.org/wiki/Data_science) among other stuff.
 * Doing things [*Agile*](https://en.wikipedia.org/wiki/Agile_software_development).
 * Reading technical books...
-* ...reviewing exercises there in.
+* ...reviewing exercises therein.
 * Reviewing available technologies.
 * Working and talking with people about data stuff.
 

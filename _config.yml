@@ -87,8 +87,8 @@ analytics:
 # Site Author
 author:
   name             : "Marcin Borucki"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A data sciencentis in industrial setting. Pushing him self to bloging to made himself even more awesome."
+  avatar           : /assets/images/5513XmS.jpg  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "A data scientist in industrial setting. Pushing himself to blogging to made himself even more awesome."
   location         : "Praga North, Warsaw, Poland"
   email            :
   uri              :
